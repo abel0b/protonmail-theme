@@ -128,3 +128,7 @@ p a:hover {
 .squire-toolbar button:hover{
   background-color: #d9dee4;
 }
+
+.composerHeader-actions button, .composer-meta button {
+  border-radius:0;
+}
