@@ -1,2 +1,7 @@
-# protonmail-theme
-A theme for ProtonMail
+# A ProtonMail theme
+
+## How to use it
++ Copy the code from `theme.css`
++ Login on [ProtonMail](https://protonmail.com/)
++ Paste it in *Settings > Appearance > Custom theme*
+
