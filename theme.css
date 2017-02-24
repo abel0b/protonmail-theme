@@ -1,134 +1,149 @@
-.sidebar, .logo {
-  background: #2A2C2B !important;
-  font-family: monospace;
+.sidebar,
+.logo {
+    background: #2A2C2B !important;
+    font-family: monospace;
 }
-
 #pm_headerDesktop {
-  background:#444;
-  font-family: monospace;
+    background: #444;
+    font-family: monospace;
 }
-
-
 .pm_button {
-  background:#DC3522 !important;
-  color: #fff !important;
-  border:0 !important;
-  border-radius: 3px;
-  box-shadow:none;
-  transition:none !important;
-  font-family: monospace;
+    background: #DC3522 !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: none !important;
+    font-family: monospace;javascript:beautify();
 }
-
 .pm_button:hover {
-  background: #C9311F !important;
-  color: #fff !important;
+    background: #C9311F !important;
+    color: #fff !important;
 }
-
-.search-form-fieldset, .search-form-fieldset-input {
-  border-radius:0;
-  background: #4f5454;
+.search-form-fieldset,
+.search-form-fieldset-input {
+    border-radius: 0!important;
+    background: #4f5454;
 }
-
 .searchForm-action-button-toggle {
-  border-radius: 0;
+    border-radius: 0;
 }
-
-.searchForm-action-button-toggle:hover {
-  background:#585859;
+.searchForm-action-button-toggle:hover,
+.searchForm-action-button-advanced:hover {
+    background: #585859;
+    border-radius: 0 !important;
 }
-
-#pm_headerDesktop ul.navigation>li.active, #pm_headerDesktop ul.navigation>li:hover, body section.sidebar ul.menu li.active a, body section.sidebar ul.menu li a:hover {
-  box-shadow: none !important;
-  background-color: #353838;
-  color: #e0e3ec;
-  transition: background-color 0.3s ease-out;
+.searchForm-advanced-container {
+    box-shadow: none;
 }
-
+#pm_headerDesktop ul.navigation>li.active,
+#pm_headerDesktop ul.navigation>li:hover,
+body section.sidebar ul.menu li.active a,
+body section.sidebar ul.menu li a:hover {
+    box-shadow: none !important;
+    background-color: #353838;
+    color: #e0e3ec;
+    transition: background-color 0.3s ease-out;
+}
 body section.sidebar ul.menu li.active a i.fa {
-  color:#e0e3ec;
+    color: #e0e3ec;
 }
-
 #pm_toolbar-desktop {
-  background: #f7f7f7 !important;
-  box-shadow:none;
+    background: #f7f7f7 !important;
+    box-shadow: none;
 }
-
-.pm_buttons, .pm_buttons .pm_buttons:not(:first-of-type), .pm_buttons>* {
-  border-radius:0 !important;
-  border-color: #e4e4e4;
+.pm_buttons,
+.pm_buttons .pm_buttons:not(:first-of-type),
+.pm_buttons>* {
+    border-radius: 0 !important;
+    border-color: #e4e4e4;
 }
-
 .pm_buttons a {
-  box-shadow: 0;
+    box-shadow: 0;
 }
-
 .conversation {
-  background:#f5f5f5 !important;
-  border:0 !important;
-  transition: 0.2s background ease-out;
+    background: #f5f5f5 !important;
+    border: 0 !important;
+    transition: 0.2s background ease-out;
 }
-
 .conversation.read {
-  background:#f7f7f7 !important;
+    background: #f7f7f7 !important;
 }
-
 .conversation:not(.marked):hover {
-  background: #efefef !important;
+    background: #efefef !important;
 }
-
 .conversation.marked::before {
-  width:0;
+    width: 0;
 }
-
 .conversation.marked {
-  background: #DC3522 !important;
-  color:#fff !important;
+    background: #DC3522 !important;
+    color: #fff !important;
 }
-
-.conversation.marked .conversation-meta h4,.conversation.marked .subject-text {
-  color:#fff !important;
+.conversation.marked .conversation-meta h4,
+.conversation.marked .subject-text {
+    color: #fff !important;
 }
-
 .customMaskInput-mask {
-  border: 1px solid #e4e4e4;
-  border-radius:0;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
 }
-
 #conversation-view .message {
-  border:0;
-  margin:0;
+    border: 0;
+    margin: 0;
 }
-
-#conversation-view header, #conversation-view .message .frame, body #conversation-list-columns {
-  border:0;
+#conversation-view header,
+#conversation-view .message .frame,
+body #conversation-list-columns {
+    border: 0;
 }
-
 body section.sidebar div.footer div.link a {
-  color:#DC3522;
+    color: #DC3522;
 }
-
 p a {
-  color: #000fff;
+    color: #000fff;
 }
-
 p a:hover {
-  color: #000fff;
-  text-decoration: none;
-  background: #ffff75;
+    color: #000fff;
+    text-decoration: none;
+    background: #ffff75;
 }
-
 #pm_composer .composer header {
-  background:#444;
+    background: #444;
 }
-
-.conversation .row .senders, .summary, recipients-summary, .recipients-details, .recipients-summary-label {
-  font-family: monospace;
+.conversation .row .senders,
+.summary,
+recipients-summary,
+.recipients-details,
+.recipients-summary-label {
+    font-family: monospace;
 }
-
-.squire-toolbar button:hover{
-  background-color: #d9dee4;
+.squire-toolbar button:hover {
+    background-color: #d9dee4;
 }
-
-.composerHeader-actions button, .composer-meta button {
-  border-radius:0;
+.composerHeader-actions button,
+.composer-meta button {
+    border-radius: 0;
+}
+.pm_form input,
+.pm_form .pm_select {
+    border: 0 !important;
+    box-shadow: none !important;
+    background: #ececec !important;
+}
+.customRadio-input:checked+.customRadio-mask {
+    box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 10px #dc3522;
+    border-color: #dc3522;
+}
+.customMaskInput-container:hover .customMaskInput-mask {
+    border-color: #dc3522 !important;
+}
+#pm_latest .storageArea .bar {
+    background-color: #ffe4bb;
+}
+#pm_latest .storageArea .bar em {
+    background: #dc3522;
+}
+#pm_latest section,
+#pm_latest header {
+    border: 0;
 }
