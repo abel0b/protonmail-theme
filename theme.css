@@ -1,20 +1,25 @@
+:root {
+    --main_color: #DC3522;
+    --sidebar_color: #2A2C2B;
+    --header_color: #444;
+}
 .sidebar,
 .logo {
-    background: #2A2C2B !important;
+    background: var(--sidebar_color) !important;
     font-family: monospace;
 }
 #pm_headerDesktop {
-    background: #444;
+    background: var(--header_color);
     font-family: monospace;
 }
 .pm_button {
-    background: #DC3522 !important;
+    background: var(--main_color) !important;
     color: #fff !important;
     border: 0 !important;
     border-radius: 3px;
     box-shadow: none;
     transition: none !important;
-    font-family: monospace;javascript:beautify();
+    font-family: monospace;
 }
 .pm_button:hover {
     background: #C9311F !important;
@@ -76,7 +81,7 @@ body section.sidebar ul.menu li.active a i.fa {
     width: 0;
 }
 .conversation.marked {
-    background: #DC3522 !important;
+    background: var(--main_color) !important;
     color: #fff !important;
 }
 .conversation.marked .conversation-meta h4,
@@ -97,7 +102,7 @@ body #conversation-list-columns {
     border: 0;
 }
 body section.sidebar div.footer div.link a {
-    color: #DC3522;
+    color: var(--main_color);
 }
 p a {
     color: #000fff;
@@ -132,23 +137,23 @@ recipients-summary,
 }
 .customRadio-input:checked+.customRadio-mask {
     box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 10px #dc3522;
-    border-color: #dc3522;
+    border-color: var(--main_color);
 }
 .customMaskInput-container:hover .customMaskInput-mask {
-    border-color: #dc3522 !important;
+    border-color: var(--main_color) !important;
 }
 #pm_latest .storageArea .bar {
     background-color: #ffe4bb;
 }
 #pm_latest .storageArea .bar em {
-    background: #dc3522;
+    background: var(--main_color);
 }
 #pm_latest section,
 #pm_latest header {
     border: 0;
 }
 .customCheckbox-input:checked+.customCheckbox-mask {
-    background-color: #DC3522;
-    border-color: #DC3522;
+    background-color: var(--main_color);
+    border-color: var(--main_color);
     background-position: 0 50%;
 }
