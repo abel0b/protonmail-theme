@@ -147,3 +147,8 @@ recipients-summary,
 #pm_latest header {
     border: 0;
 }
+.customCheckbox-input:checked+.customCheckbox-mask {
+    background-color: #DC3522;
+    border-color: #DC3522;
+    background-position: 0 50%;
+}
